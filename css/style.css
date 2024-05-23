@@ -56,11 +56,12 @@ body {
 }
 
 body {
-  min-width: 360px;
+  overflow-x: hidden;
   min-height: 100%;
   width: 100%;
   position: relative;
   background-color: var(--bg-color);
+  max-width: 800px;
 }
 
 .title-font {
